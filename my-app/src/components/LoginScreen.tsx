@@ -83,7 +83,11 @@ const LoginScreen = () => {
       <Button className="submit-button" variant="contained" onClick={handleLogin} disabled={!isLoginFormValid || loading}>
         {loading ? 'Logging in...' : 'Login'}
       </Button>
+
       </div>
+      Demo: 
+      Email: user1@example.com
+      Password: pass1
     </div>
   </div>
   );
