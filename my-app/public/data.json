@@ -1,0 +1,62 @@
+{
+ 
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Tsedeke",
+      "lastName": "Habe",
+      "email": "user1@example.com",
+      "password": "pass1",
+      "avatar": "https://avatars.githubusercontent.com/u/32611349?v=4",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjI0LCJpYXQiOjE2ODc2MTYzNDAsImV4cCI6MTY4NzY1MjM0MH0.Ng_xsONuKHrHARAX8G4nPWC7qmtvyZcJqR8ptGgP7zM"
+    },
+    {
+      "id": 2,
+      "firstName": "Demsash",
+      "lastName": "Temesgen",
+      "email": "user2@example.com",
+      "password": "pass2",
+      "avatar": "https://avatars.githubusercontent.com/u/32611349?v=4",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjI0LCJpYXQiOjE2ODc2MTYzNDAsImV4cCI6MTY4NzY1MjM0MH0.Ng_xsONuKHrHARAX8G4nPWC7qmtvyZcJqR8ptGgP7zN"
+    }
+  ],
+  "chatSessions": [
+    {
+      "id": 1,
+      "name": "Chat Session 1",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "User1",
+          "content": "Hello",
+          "timestamp": "2023-06-23T12:00:00Z"
+        },
+        {
+          "id": 2,
+          "sender": "User2",
+          "content": "Hi",
+          "timestamp": "2023-06-23T12:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Chat Session 2",
+      "messages": [
+        {
+          "id": 3,
+          "sender": "User1",
+          "content": "How are you?",
+          "timestamp": "2023-06-23T12:02:00Z"
+        },
+        {
+          "id": 4,
+          "sender": "User2",
+          "content": "I'm good, thanks!",
+          "timestamp": "2023-06-23T12:03:00Z"
+        }
+      ]
+    }
+  ]
+}
+

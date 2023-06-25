@@ -1,0 +1,151 @@
+.search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .datagrid-container {
+    height: 400px;
+    width: 100%;
+  }
+  
+  .new-chat-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  /* ChatSessionsScreen.css */
+.chat-sessions-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  background-color: #4267B2; /* Facebook background color */
+  color: white;
+}
+
+.search-bar {
+  margin-top: 20px;
+}
+
+.datagrid-container {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.new-chat-button-container {
+  margin-top: 20px;
+  align-self: flex-end;
+}
+
+.chat-popup-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  max-height: calc(100vh - 200px);
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  overflow-y: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.chat-popup-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-messages-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.message-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.message-text {
+  margin-right: 10px;
+}
+
+.message-actions {
+  display: flex;
+}
+
+.message-input-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.message-input-container > .MuiTextField-root {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+/* Adjust styles for MUI components */
+.MuiDataGrid-root {
+  border: none;
+}
+
+.MuiButton-root {
+  margin-top: 10px;
+}
+
+.MuiMenu-paper {
+  max-height: 200px;
+}
+
+.MuiMenuItem-root {
+  white-space: nowrap;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #4267B2; /* Facebook background color */
+  padding: 10px;
+  color: white;
+  z-index: 999; /* Ensure the header stays on top of other elements */
+}
+
+.chat-sessions-container {
+  margin-top: 50px; /* Adjust the top margin to accommodate the fixed header */
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #4267B2; /* Facebook background color */
+}
+
+  @media screen and (max-width: 600px) {
+    /* Styles for smaller screens */
+    .chat-popup-container {
+      width: 100%;
+      right: 0;
+      border-radius: 0;
+    }
+  }
+  
